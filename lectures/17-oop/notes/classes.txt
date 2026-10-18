@@ -10,6 +10,7 @@ It is useful to think of an object’s identity as the place where its value is 
 The behavior of an object is the effect of data-type operations.
 The reference variables are stored in stack memory while the objects are stored in heap memory
 
+The variables in an object is called instance variables(Eg : Student class has obj s1 and s1 has instances variables as name, rollNo, marks...
 The dot operator links the name of the object with the name of an instance variable.
 Although commonly referred to as the dot operator, the formal specification for Java categorizes the . as a separator.
 The 'new' keyword dynamically allocates(that is, allocates at run time)memory for an object & returns a reference to it.
